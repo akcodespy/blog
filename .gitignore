@@ -1,0 +1,23 @@
+# --- Python Environment ---
+.venv/
+venv/
+env/
+bin/
+lib/
+
+# --- Python Caching ---
+__pycache__/
+*.py[cod]
+*$py.class
+
+# --- Secrets and Config ---
+.env
+
+# --- Databases ---
+*.sqlite3
+*.db
+
+# --- Editor Specific ---
+.vscode/
+.idea/
+.DS_Store
